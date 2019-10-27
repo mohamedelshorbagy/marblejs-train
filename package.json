@@ -1,0 +1,43 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "ts-node src/server.ts",
+    "scrapper": "ts-node src/scrapper.ts",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.7.3",
+    "@types/puppeteer": "^1.20.2",
+    "@types/uuid": "^3.4.5",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@akanass/rx-http-request": "^3.3.0",
+    "@marblejs/core": "^2.3.1",
+    "@marblejs/middleware-body": "^2.3.1",
+    "@marblejs/middleware-cors": "^2.3.1",
+    "@marblejs/middleware-io": "^2.3.1",
+    "@marblejs/middleware-jwt": "^2.3.1",
+    "@marblejs/middleware-logger": "^2.3.1",
+    "@marblejs/websockets": "^2.3.1",
+    "@types/fs-extra": "^8.0.0",
+    "@types/mongoose": "^5.5.19",
+    "@types/socket.io": "^2.1.4",
+    "bcryptjs": "^2.4.3",
+    "fs-extra": "^8.1.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.3",
+    "puppeteer": "^1.20.0",
+    "rxjs": "^6.5.3",
+    "socket.io": "^2.3.0",
+    "uuid": "^3.3.3"
+  }
+}
