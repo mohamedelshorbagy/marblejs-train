@@ -33,7 +33,7 @@
     "@types/socket.io": "^2.1.4",
     "bcryptjs": "^2.4.3",
     "fs-extra": "^8.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.7.3",
     "puppeteer": "^1.20.0",
     "rxjs": "^6.5.3",
